@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code&family=Kanit:wght@500;600;700&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    /* background-color: pink; */
+    background-image: url('https://img.freepik.com/premium-vector/abstract-seamless-cartoon-background-with-blue-sky-clouds-summer-fluffy-sleep-cloud-wallpaper-flat-dream-white-clouds-vector-pattern-heaven-with-cumulus-beautiful-cloudscape_102902-4903.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    margin-top: 20px;
+    font-size: 40px;
+    animation:title 1s ease-in-out forwards;
+    color: #037841;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+@keyframes title
+{
+    0%{transform:translateX(-400px);}
+    0%{color: white;}
+    0%{opacity:0;}
+}
+#rollno
+{
+    border-radius: 19px;
+    text-decoration: none;
+    border: none;
+    height: 40px;
+    width:220px;
+    padding: 5px;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#submit
+{
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    height: 50px;
+    width:72px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#submit:hover
+{
+    transform: scale(1.2);
+    border:1px solid white;
+}
+#submit:active
+{
+    transform: scale(0.8);
+}
+.container
+{
+    /* border:2px solid white; */
+    padding: 15px;
+    margin: auto;
+    margin-top: 110px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-stretch;
+    width:330px;
+    /* border:2px solid black; */
+    justify-content: center;
+    background-color: rgb(161, 7, 161);
+    border-radius: 19px;
+    animation: updown 1s ease-in-out forwards;
+    box-shadow: 10px 10px rgb(50, 41, 41);
+}
+@keyframes updown
+{
+    0%{transform: translateY(200px);}
+    0%{opacity: 0;}
+}
+#display
+{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 7px 7px rgb(19, 225, 225);
+    /* line-height: 50px; */
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:10px;
+    color:black;
+}
+
+#totalworking
+{
+    margin-top: 20px;
+}
+#moreinfo
+{
+    margin-top: 11px;
+    font-size:13px;
+    margin-bottom:10px;
+    margin-left:200px;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(212, 202, 202);
+}
+#moreinfo:hover
+{
+    transform: scale(1.2);
+    border:1px solid white;
+}
+#moreinfo:active
+{
+    transform: scale(0.9);
+}
+#displaycontainer
+{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+}
